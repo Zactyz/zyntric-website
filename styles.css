@@ -3,7 +3,7 @@
     /* New Zyntric Color Palette */
     --primary-color: #008D91; /* Zyntric Teal */
     --primary-dark: #005E62; /* Deep Teal */
-    --accent-color: #FF6B6B; /* Coral */
+    --accent-color: #F38C50; /* Soft Orange (was Coral) */
     --accent-secondary: #F38C50; /* Soft Orange */
     --info-color: #4379FF; /* Stripe Blue */
     --success-color: #3EB991; /* Slack Keppel */
@@ -1221,7 +1221,7 @@ footer {
 }
 
 .dark-mode .accent-color {
-    color: #FF8378; /* Brighter coral for dark mode */
+    color: #F9A87B; /* Brighter orange for dark mode (was FF8378) */
 }
 
 /* Accent Color Classes */
