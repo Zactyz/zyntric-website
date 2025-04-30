@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zyntric | Custom Wealth Tech for Financial Advisors</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <meta name="description" content="Zyntric provides custom wealth tech tools for financial advisors to enhance client experience and automate workflows.">
+    <link rel="icon" href="assets/images/logo-solo.png" type="image/png">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <a href="#">
+                    <img src="assets/images/Zyntric-logo-1.png" alt="Zyntric Logo" width="220" height="auto">
+                </a>
+            </div>
+            <div class="nav-right">
+                <div class="dark-mode-toggle" id="darkModeToggle">
+                    <i class="fas fa-moon"></i>
+                </div>
+                <div class="nav-toggle" id="navToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#tools">Tools</a></li>
+                    <li><a href="#process">Process</a></li>
+                    <li><a href="#why">Why Us</a></li>
+                    <li><a href="#contact" class="btn-primary">Book Consult</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Custom Wealth Tech. <span class="text-primary">Built for Advisors.</span></h1>
+                    <p>Mobile-first tools that help advisors stand out, automate workflows, and deliver a better client experience — all fully branded and ready to use.</p>
+                    <div class="hero-cta">
+                        <a href="#contact" class="btn-primary">Schedule Free Consult</a>
+                        <a href="#tools" class="btn-secondary">View Use Cases</a>
+                    </div>
+                </div>
+                <div class="hero-showcase">
+                    <div class="device-mockup">
+                        <div class="device active" id="mockup1">
+                            <img src="assets/images/clientportal.png" alt="Client portal mockup">
+                            <div class="device-label">Client Portal</div>
+                        </div>
+                        <div class="device" id="mockup2">
+                            <img src="assets/images/retirementcalculator.png" alt="Financial calculator mockup">
+                            <div class="device-label">Custom Calculator</div>
+                        </div>
+                        <div class="device" id="mockup3">
+                            <img src="assets/images/FinancialTracker.png" alt="Progress tracker mockup">
+                            <div class="device-label">Progress Tracker</div>
+                        </div>
+                    </div>
+                    <div class="mockup-controls">
+                        <button class="mockup-dot active" data-target="mockup1"></button>
+                        <button class="mockup-dot" data-target="mockup2"></button>
+                        <button class="mockup-dot" data-target="mockup3"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tools Section -->
+        <section id="tools" class="tools">
+            <div class="container">
+                <h2>Smart, Branded Tools That <span class="accent-color">Solve Real Problems</span></h2>
+                <p class="section-subtitle">You don't need to wait months or spend thousands to have beautiful, functional client tools. We build lightweight, modern experiences that plug right into how you already work.</p>
+                
+                <div class="tools-grid">
+                    <div class="tool-card animate-ready">
+                        <div class="tool-icon">
+                            <i class="fas fa-tasks"></i>
+                        </div>
+                        <h3>Client Progress Tracker</h3>
+                        <p>Let clients see where they are in your process, what's coming next, and what's completed.</p>
+                    </div>
+                    
+                    <div class="tool-card animate-ready">
+                        <div class="tool-icon">
+                            <i class="fas fa-user-plus"></i>
+                        </div>
+                        <h3>Onboarding App</h3>
+                        <p>A guided, mobile-friendly intake form with conditional logic and optional file uploads.</p>
+                    </div>
+                    
+                    <div class="tool-card animate-ready">
+                        <div class="tool-icon">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                        <h3>Custom Calculators</h3>
+                        <p>Branded tools for things like retirement gaps, debt payoff, or investment growth.</p>
+                    </div>
+                    
+                    <div class="tool-card animate-ready">
+                        <div class="tool-icon">
+                            <i class="fas fa-clipboard-check"></i>
+                        </div>
+                        <h3>Quarterly Review App</h3>
+                        <p>Interactive client check-in sent each quarter with reminders and exports.</p>
+                    </div>
+                    
+                    <div class="tool-card animate-ready">
+                        <div class="tool-icon">
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                        <h3>Referral Portal</h3>
+                        <p>Encourage and track referrals in a branded mobile flow.</p>
+                    </div>
+                </div>
+                
+                <div class="tools-cta">
+                    <a href="#contact" class="btn-secondary">
+                        <span>Explore Examples</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section id="process" class="process">
+            <div class="container">
+                <h2>Custom in <span class="text-primary">Days</span>. Scalable for <span class="accent-color">Years</span>.</h2>
+                
+                <div class="process-steps">
+                    <div class="process-step animate-ready">
+                        <div class="step-number">1</div>
+                        <h3>Book a 30-min consult</h3>
+                        <p>We'll talk about your workflow and what tools can help</p>
+                    </div>
+                    
+                    <div class="process-step animate-ready">
+                        <div class="step-number">2</div>
+                        <h3>We design + build</h3>
+                        <p>We create a branded experience tailored to your firm</p>
+                    </div>
+                    
+                    <div class="process-step animate-ready">
+                        <div class="step-number">3</div>
+                        <h3>You launch + scale</h3>
+                        <p>Embed it, link it, or text it to clients — your name, your brand, your way</p>
+                    </div>
+                </div>
+                
+                <div class="trust-badge">
+                    <i class="fas fa-shield-alt"></i>
+                    <p>Built using secure, modern tech stacks. Delivered with clear pricing and fast turnaround.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Section -->
+        <section id="why" class="why">
+            <div class="container">
+                <h2>Why Advisors <span class="text-primary">Choose Us</span></h2>
+                
+                <div class="benefits-container">
+                    <div class="benefits-content">
+                        <div class="benefit-item animate-ready">
+                            <h3><i class="fas fa-bullseye"></i> Tailored, not templated</h3>
+                            <p>We build exactly what you need with your branding and preferences at the forefront.</p>
+                        </div>
+                        
+                        <div class="benefit-item animate-ready">
+                            <h3><i class="fas fa-bolt"></i> Built fast and maintained</h3>
+                            <p>Launch in days, not months, with ongoing support for your growing practice.</p>
+                        </div>
+                        
+                        <div class="benefit-item animate-ready">
+                            <h3><i class="fas fa-mobile-alt"></i> Mobile-first, client-friendly</h3>
+                            <p>Tools designed for how clients actually use technology: on their phones, on the go.</p>
+                        </div>
+                        
+                        <div class="benefit-item animate-ready">
+                            <h3><i class="fas fa-puzzle-piece"></i> Easily integrates with your tools</h3>
+                            <p>We connect with your existing tech stack so everything works together seamlessly.</p>
+                        </div>
+                        
+                        <div class="benefit-item animate-ready">
+                            <h3><i class="fas fa-lock"></i> Your data and client privacy come first</h3>
+                            <p>Secure, compliant solutions built with the highest standards for data protection.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card animate-ready">
+                        <div class="testimonial-content">
+                            <p>"Zyntric helped me build a portal my clients actually use. It looks like a million bucks, but took a week to launch."</p>
+                            <div class="testimonial-author">
+                                <div>
+                                    <h4>Independent RIA</h4>
+                                    <p>Florida</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section id="contact" class="cta">
+            <div class="container">
+                <h2>Ready to look <span class="text-primary">modern</span> and scale your advice?</h2>
+                <a href="#" class="btn-primary btn-large">Schedule a Free Consult</a>
+                <p class="cta-note">No commitment. Just strategy, clarity, and a clear next step.</p>
+                <p class="cta-email">Or email us at: <a href="mailto:hello@zyntric.com">hello@zyntric.com</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <img src="assets/images/Zyntric-logo-1.png" alt="Zyntric Logo" width="140" height="auto" class="footer-logo">
+                    <p>Custom wealth tech tools for forward-thinking financial advisors.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#tools">Tools</a></li>
+                        <li><a href="#process">Process</a></li>
+                        <li><a href="#why">Why Us</a></li>
+                        <li><a href="#contact">Book Consult</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Tools</h4>
+                    <ul>
+                        <li><a href="#tools">Progress Tracker</a></li>
+                        <li><a href="#tools">Onboarding App</a></li>
+                        <li><a href="#tools">Custom Calculators</a></li>
+                        <li><a href="#tools">Review App</a></li>
+                        <li><a href="#tools">Referral Portal</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-subscribe">
+                    <h4>Stay Updated</h4>
+                    <p>Get the latest on wealth tech tools and trends.</p>
+                    <form class="subscribe-form">
+                        <input type="email" placeholder="Your email address" aria-label="Your email address">
+                        <button type="submit" aria-label="Subscribe"><i class="fas fa-arrow-right"></i></button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Zyntric. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
